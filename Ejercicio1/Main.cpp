@@ -18,6 +18,7 @@ int main()
 	//limpiala pantalla -->System("CLS")*/
 	//hola
 	//adios
+	//chevere
 	cout << "Calculadora"<<endl;
 	cout << "Escribe el primer valor" << endl;
 	cin >> a;
