@@ -9,6 +9,7 @@ int main()
 	float b = 0;
 	char operation;
 	result = 4.0f * 2.0f * (3.0f - 4.0f) / 3.0f;
+	char end;
 	/*//pide por consola
 	//std::cin >> letra;es lo mismo que la de abajo
 	cin >> letra;
@@ -29,16 +30,17 @@ int main()
 	cin >> operation;
 	switch (operation) {
 	case '+':
-		cout << "resultado de " << a << " mas " << b << " es igual a "<< a+b;
+		cout << "resultado de " << a << " mas " << b << " es igual a "<< a+b << endl;
 		break;
 	case '-':
-		cout << "resultado de " << a << " meno " << b << " es igual a " << a - b;
+		cout << "resultado de " << a << " meno " << b << " es igual a " << a - b << endl;
 		break;
 	case '*':
-		cout << "resultado de " << a << " por " << b << " es igual a " << a * b;
+		cout << "resultado de " << a << " por " << b << " es igual a " << a * b << endl;
 		break;
 	case '/':
-		cout << "resultado de " << a << " entre " << b << " es igual a " << a / b;
+		cout << "resultado de " << a << " entre " << b << " es igual a " << a / b << endl;
 		break;
 	}
+	cin >> end;
 }
