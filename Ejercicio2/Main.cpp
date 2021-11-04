@@ -90,6 +90,7 @@ void Inputs() {
 	cout << input;
 	switch (input)
 	{
+	case 'H':
 	case 'W':
 		inputs = INPUTS::UP;
 		break;
@@ -101,6 +102,7 @@ void Inputs() {
 	case 'P':
 		inputs = INPUTS::DOWN;
 		break;
+	case 'M':
 	case 'D':
 		inputs = INPUTS::RIGHT;
 		break;
